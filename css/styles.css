@@ -1,0 +1,224 @@
+/* 
+1. posicionamiento
+2. modelo de caja
+3. tipografia
+4. visuales
+5. otros */
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html {
+ font-size: 62.5%;
+ font-family: 'Roboto', sans-serif;
+ scroll-behavior: smooth;
+}
+
+body {
+ background: black;
+ color: white;
+}
+
+.home {
+ position: relative;
+ height: 100vh;
+ width: 100vw;
+ min-width: 320px ;
+ text-align: center;
+ color: white;
+ background-image: url(../assets/portfolioWebsite.jpg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.home .home_logo {
+ min-width: 300px;
+ max-width: 500px;
+ text-align: left;
+ font-size: 3rem;
+ padding: 10px;
+}
+
+.hide {
+ display: none;
+}
+
+.home .home_logo .name {
+ font-weight: 900;
+}
+
+ .home .home_logo .last_name {
+  color: #3282b8;
+ }
+
+ .navbar  {
+  line-height: 10rem;
+  font-size: 2rem;
+  font-weight: 700;
+  padding-top: 10rem;
+ }
+
+ .navbar li a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 4px;
+ }
+
+ .home_message {
+  display: none;
+ }
+
+ .About_me {
+  min-width: 320px;
+  max-width: 700px;
+  margin: 0 auto;
+ }
+
+ .about_container {
+  width: 90%;
+  min-width: 300px;
+  padding: 10px;
+  margin: 15px auto;
+  border: 2px solid white;
+  border-radius: 10px;
+  background: #101010;  
+ }
+
+ .About_me h2 {
+  font-size: 2rem;
+  margin: 10px;
+ }
+
+ .about_article p {
+  font-size: 1.4rem;
+  line-height: 2;
+ }
+
+ .Portfolio {
+  min-width: 320px;
+  max-width: 700px;
+  margin: 0 auto;
+ }
+
+ .Portfolio .project_1 {
+  width: 90%;
+  min-width: 300px;
+  padding: 10px;
+  margin: 15px auto;
+  border: 2px solid white;
+  border-radius: 10px;
+  background: #101010;  
+ }
+
+ 
+ .Portfolio h2 {
+  font-size: 2rem;
+  margin: 10px;
+ }
+
+ .project_1_article h3 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+ }
+
+ .project_1_article p {
+  font-size: 1.4rem;
+  line-height: 2;
+ }
+
+ .project_1_img {
+  margin-top: 10px;
+  text-align: center;
+ }
+
+ .project_1_img img {
+  width: 50%;
+  border-radius: 10px;
+  border: 2px solid white;
+ }
+
+ .Portfolio .project_2 {
+  width: 90%;
+  min-width: 300px;
+  padding: 10px;
+  margin: 15px auto;
+  border: 2px solid white;
+  border-radius: 10px;
+  background: #101010;  
+ }
+
+ .project_2_article h3 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+ }
+
+ .project_2_article p {
+  font-size: 1.4rem;
+  line-height: 2;
+ }
+
+ .project_2_img {
+  margin-top: 10px;
+  text-align: center;
+ }
+
+ .project_2_img img {
+  width: 50%;
+  border-radius: 10px;
+  border: 2px solid white;
+ }
+
+ .Portfolio .project_3 {
+  width: 90%;
+  min-width: 300px;
+  padding: 10px;
+  margin: 15px auto;
+  border: 2px solid white;
+  border-radius: 10px;
+  background: #101010;  
+ }
+
+ .project_3_article h3 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+ }
+
+ .project_3_article p {
+  font-size: 1.4rem;
+  line-height: 2;
+ }
+
+ .project_3_img {
+  margin-top: 10px;
+  text-align: center;
+ }
+
+ .project_3_img img {
+  width: 50%;
+  border-radius: 10px;
+  border: 2px solid white;
+ }
+
+ .contact_container {
+  text-align: center;
+ }
+
+ .contact h3 {
+  font-size: 2rem;
+  margin: 10px;
+  text-align: left;
+ }
+
+
+ .contact_container img {
+  width: 30px;
+  text-align: center;
+  margin-left: 40px;
+  margin-bottom: 30px;
+ }
